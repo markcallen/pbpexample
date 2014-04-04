@@ -1,0 +1,32 @@
+{
+  "author": "Mark Allen <mark@markcallen.com>",
+  "name": "pbpexample",
+  "description": "A PBP example application",
+  "version": "0.1.0",
+  "homepage": "http://www.poweredbypurple.ca/",
+  "main": "app",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "express": "3.5.x",
+    "connect-mongo": "0.4.*",
+    "passport": "0.2.*",
+    "passport-local": "1.0.*",
+    "passport-facebook": "1.0.*",
+    "passport-http": "0.2.*",
+    "node-uuid": "*",
+    "nodemailer": "0.6.*",
+    "fmt": "*"
+  },
+  "devDependencies" : {
+    "mocha": "0.3.x",
+    "expect.js": "0.2.x",
+    "jsonfile": "1.1.x"
+  },
+  "scripts" : {
+    "test" : "make test"
+  },
+  "optionalDependencies": {},
+  "repository": "git@chef.poweredbypurple.ca:/poweredbypurple"
+}
