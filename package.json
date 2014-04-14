@@ -10,13 +10,14 @@
   },
   "dependencies": {
     "express": "3.5.x",
-    "connect-mongo": "0.4.*",
-    "passport": "0.2.*",
-    "passport-local": "1.0.*",
-    "passport-facebook": "1.0.*",
-    "passport-http": "0.2.*",
+    "mongoose": "3.8.x",
+    "connect-mongo": "0.4.x",
+    "passport": "0.2.x",
+    "passport-local": "1.0.x",
+    "passport-facebook": "1.0.x",
+    "passport-http": "0.2.x",
     "node-uuid": "*",
-    "nodemailer": "0.6.*",
+    "nodemailer": "0.6.x",
     "fmt": "*"
   },
   "devDependencies" : {
